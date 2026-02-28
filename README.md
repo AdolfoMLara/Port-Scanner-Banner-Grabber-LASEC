@@ -31,7 +31,7 @@ No se requieren librerías externas (usa únicamente `socket`).
 
 ## Uso
 
-### 1️⃣ Activar un servicio de prueba (Puerto 8080)
+### 1️⃣ Activar un servicio de prueba (Puerto 80)
 
 En una terminal nueva ejecutar:
 
