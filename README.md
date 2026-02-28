@@ -39,7 +39,7 @@ En una terminal nueva ejecutar:
 python3 -m http.server 80
 ```
 
-Esto levanta un servidor HTTP local en el puerto 8080 para poder probar el escaneo.
+Esto levanta un servidor HTTP local en el puerto 80 para poder probar el escaneo.
 
 ---
 
