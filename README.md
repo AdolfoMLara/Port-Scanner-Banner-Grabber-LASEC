@@ -36,7 +36,7 @@ No se requieren librerías externas (usa únicamente `socket`).
 En una terminal nueva ejecutar:
 
 ```bash
-python3 -m http.server 8080
+python3 -m http.server 80
 ```
 
 Esto levanta un servidor HTTP local en el puerto 8080 para poder probar el escaneo.
@@ -59,8 +59,8 @@ Modificar los siguientes valores según el objetivo:
 
 ```python
 ip_objetivo = "127.0.0.1"
-puerto_inicio = 8000
-puerto_fin = 8100
+puerto_inicio = 100
+puerto_fin = 200
 ```
 
 Puedes cambiar:
@@ -73,14 +73,14 @@ Puedes cambiar:
 ## Ejemplo de salida
 
 ```
-Escaneando 127.0.0.1 desde el puerto 8000 hasta 8100
+Escaneando 127.0.0.1 desde el puerto 1 hasta 200
 --------------------------------------------------
-Puerto 8080 ABIERTO
+Puerto 80 ABIERTO
  Banner: HTTP/1.0 200 OK
- Server: SimpleHTTP/0.6 Python/3.13.11
- Date: Sat, 28 Feb 2026 18:01:25 GMT
- Content-type: text/html; charset=utf-8
- Content-Length: 242
+Server: SimpleHTTP/0.6 Python/3.13.11
+Date: Sat, 28 Feb 2026 19:35:17 GMT
+Content-type: text/html; charset=utf-8
+Content-Length: 2686
 --------------------------------------------------
 Escaneo finalizado
 ```
