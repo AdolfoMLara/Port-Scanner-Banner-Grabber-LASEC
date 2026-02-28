@@ -35,53 +35,6 @@ No se requieren librerías externas (usa únicamente `socket`).
 
 En una terminal nueva ejecutar:
 
-
-python3 -m http.server 8080
-
-
-Esto levanta un servidor HTTP local en el puerto 8080 para poder probar el escaneo.
-
----
-
-### 2️⃣ Ejecutar el Port Scanner
-
-# Port Scanner + Banner Grabber
-
-## Descripción
-
-Port Scanner TCP desarrollado en Python que permite identificar puertos abiertos y capturar banners para reconocer servicios activos en red.
-
-TCP Port Scanner developed in Python that detects open ports and performs banner grabbing to identify running network services.
-
-Proyecto académico del curso de Hacking Ético enfocado en reconocimiento y enumeración inicial.
-
----
-
-## Objetivo
-
-- Detectar puertos TCP abiertos.
-- Obtener información básica del servicio (banner).
-- Comprender el funcionamiento de sockets en Python.
-- Practicar reconocimiento en entornos controlados.
-
----
-
-## Requisitos
-
-- Python 3
-- Sistema Linux (probado en Kali Linux)
-- Permisos para escanear el host objetivo
-
-No se requieren librerías externas (usa únicamente `socket`).
-
----
-
-## Uso
-
-### 1️⃣ Activar un servicio de prueba (Puerto 8080)
-
-En una terminal nueva ejecutar:
-
 ```bash
 python3 -m http.server 8080
 ```
